@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -m http.server 8080)",
+      "Bash(echo \"PID: $!\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8080/)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(npx --version)",
+      "Bash(ruby --version)",
+      "Bash(sed -i '' 's|<h3>Camins Sensorials</h3>|<h3>Teràpia i Benestar</h3>|g' /Users/coveruser/Downloads/burros-miniatura-github/1_Home_cat.html /Users/coveruser/Downloads/burros-miniatura-github/5_NuestroRefugio_cat.html)",
+      "Bash(sed -i '' 's|<h3>Sensory Paths</h3>|<h3>Therapy \\\\&amp; Wellbeing</h3>|g' /Users/coveruser/Downloads/burros-miniatura-github/1_Home_en.html /Users/coveruser/Downloads/burros-miniatura-github/5_NuestroRefugio_en.html)",
+      "Bash(sed -i '' 's|<h3>Sinnespfade</h3>|<h3>Therapie \\\\&amp; Wohlbefinden</h3>|g' /Users/coveruser/Downloads/burros-miniatura-github/1_Home_de.html /Users/coveruser/Downloads/burros-miniatura-github/5_NuestroRefugio_de.html)"
+    ]
+  }
+}

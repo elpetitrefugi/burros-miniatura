@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "web",
+      "runtimeExecutable": "ruby",
+      "runtimeArgs": ["-run", "-e", "httpd", "/Users/coveruser/Downloads/burros-miniatura-github", "-p", "8080"],
+      "port": 8080
+    }
+  ]
+}

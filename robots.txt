@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://burros-miniatura.com/sitemap.xml
