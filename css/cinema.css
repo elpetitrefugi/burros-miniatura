@@ -55,6 +55,11 @@ header.scrolled .menu a.lnk:hover,header.solid .menu a.lnk:hover,header.scrolled
 .btn-book:hover{background:var(--gold);border-color:var(--gold);color:var(--forest)}
 header.scrolled .btn-book{border-color:var(--forest);color:var(--forest)}
 header.scrolled .btn-book:hover,header.solid .btn-book:hover{background:var(--forest);color:var(--cream);border-color:var(--forest)}
+.btn-rates{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;font-weight:700;padding:.85rem 1.6rem;border:1px solid rgba(255,255,255,.5);border-radius:999px;color:#fff;transition:all .4s}
+.btn-rates:hover{background:var(--gold-soft);border-color:var(--gold-soft);color:var(--forest)}
+header.scrolled .btn-rates{border-color:var(--sage);color:var(--sage)}
+header.scrolled .btn-rates:hover,header.solid .btn-rates:hover{background:var(--sage);color:var(--cream);border-color:var(--sage)}
+header.solid .btn-rates{border-color:var(--sage);color:var(--sage)}
 .burger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:0;padding:6px}
 .burger span{width:26px;height:2px;background:#fff;transition:.4s}
 header.scrolled .burger span{background:var(--forest)}
@@ -75,6 +80,8 @@ header.scrolled .burger span{background:var(--forest)}
 .hero-cta{display:flex;gap:1.1rem;flex-wrap:wrap;opacity:0;animation:rise 1s ease 1.05s forwards}
 .cta-solid{background:var(--gold);color:var(--forest);font-weight:700;font-size:.76rem;letter-spacing:.16em;text-transform:uppercase;padding:1.1rem 2.2rem;border-radius:999px;transition:all .4s;display:inline-block}
 .cta-solid:hover{background:var(--cream);transform:translateY(-2px)}
+.cta-rates-inline{color:var(--forest);font-weight:600;font-size:.76rem;letter-spacing:.16em;text-transform:uppercase;padding:1.1rem 2.2rem;border:1px solid var(--sage);border-radius:999px;transition:all .4s;display:inline-block;margin-left:.8rem}
+.cta-rates-inline:hover{background:var(--sage);color:var(--cream);transform:translateY(-2px)}
 .cta-ghost{color:#fff;font-weight:600;font-size:.76rem;letter-spacing:.16em;text-transform:uppercase;padding:1.1rem .4rem;border-bottom:1px solid rgba(255,255,255,.4);transition:.4s}
 .cta-ghost:hover{border-color:var(--gold-soft);color:var(--gold-soft)}
 .scroll-cue{position:absolute;bottom:2rem;left:50%;transform:translateX(-50%);z-index:2;font-size:.62rem;letter-spacing:.3em;text-transform:uppercase;color:rgba(255,255,255,.7);display:flex;flex-direction:column;align-items:center;gap:.7rem}
