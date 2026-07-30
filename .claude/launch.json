@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "web",
-      "runtimeExecutable": "ruby",
-      "runtimeArgs": ["-run", "-e", "httpd", "/Users/coveruser/Downloads/burros-miniatura-github", "-p", "8080"],
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8080", "--directory", "/Users/coveruser/Downloads/burros-miniatura-github"],
       "port": 8080
     }
   ]
