@@ -62,4 +62,10 @@
   <url><loc>https://burros-miniatura.com/vip-gourmet_en.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://burros-miniatura.com/vip-gourmet_de.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
+  <!-- La Castanyera -->
+  <url><loc>https://burros-miniatura.com/castanyera.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://burros-miniatura.com/castanyera_cat.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://burros-miniatura.com/castanyera_en.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://burros-miniatura.com/castanyera_de.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
 </urlset>
