@@ -29,7 +29,7 @@
       more:'Find out more', book:'Book', rates:'View rates', close:'Close',
       banner:'Burro Tió Christmas · 6, 7, 8 & 19 December · €28 per child',
       art:'burrotio_en.html', cont:'6_Contacto_en.html', pdf:'tarifas_burrotio_en.pdf' },
-    de: { eyebrow:'Weihnachten im Petit Refugi', title:'Erlebe den Burro Tió',
+    de: { eyebrow:'Weihnachten im Petit Refugi', title:'Erleben Sie den Burro Tió',
       text:'Ein zauberhafter Vor- oder Nachmittag mit Kitty, Kika, Pepa, Nina, Foc, Leo und unserer ganzen Miniatur-Eselherde: die Tiere kennenlernen, mit den kleinen Elfen den Camí Màgic entdecken und dem Burro Tió, unserer Version des katalanischen Weihnachtsklotzes, Lieder singen, damit er schöne Geschenke für alle bringt.',
       meta:'6., 7., 8. und 19. Dezember · 11:00 und 15:00 Uhr · 2 Std. · 28 € pro Kind, Erwachsene frei · Begrenzte Plätze',
       more:'Mehr erfahren', book:'Reservieren', rates:'Preise ansehen', close:'Schließen',

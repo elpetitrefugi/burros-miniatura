@@ -254,3 +254,15 @@ footer{background:var(--forest);color:rgba(250,248,242,.65);padding:4.5rem 0 2.5
 .flist li{position:relative;padding-left:1.2rem;font-weight:300;font-size:.92rem;color:var(--muted)}
 .forest .flist li{color:rgba(250,248,242,.72)}
 .flist li::before{content:"";position:absolute;left:0;top:.6em;width:6px;height:6px;background:var(--gold);transform:rotate(45deg)}
+
+/* ---------- Preguntas frecuentes ---------- */
+.faq .faq-list{max-width:52rem;margin:3rem auto 0;border-top:1px solid rgba(15,36,23,.14)}
+.faq details{border-bottom:1px solid rgba(15,36,23,.14)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:1.5rem;
+  padding:1.35rem 0;font-family:var(--serif);font-size:clamp(1.2rem,2.1vw,1.5rem);font-weight:400;line-height:1.25;color:var(--forest)}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";flex:none;font-family:var(--sans);font-weight:300;font-size:1.5rem;line-height:1;color:var(--gold);transition:transform .35s ease}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq summary:hover{color:var(--gold)}
+.faq summary:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+.faq details p{color:var(--muted);font-weight:300;font-size:1rem;line-height:1.7;padding:0 2.5rem 1.5rem 0;max-width:44rem}
